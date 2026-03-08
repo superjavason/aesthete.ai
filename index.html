@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taste Quest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <header class="hero shell">
+      <nav class="topbar">
+        <div class="brand">
+          <div class="brand-mark">TQ</div>
+          <div>
+            <p class="brand-title">Taste Quest</p>
+            <p class="brand-subtitle">Play your way into better taste</p>
+          </div>
+        </div>
+        <div class="topbar-links">
+          <a href="#quest-lab">Quest Lab</a>
+          <a href="#arena">Boss Fight</a>
+          <a href="#journal">Journal</a>
+          <a href="#dashboard">Progress</a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow">Inspired by the book “The Awakening of Taste”</p>
+          <h1>
+            A gameful learning platform for training perception, judgment,
+            expression, and reflection.
+          </h1>
+          <p class="lead">
+            The book argues that taste is not a luxury label but a trainable
+            way of seeing. This platform turns that idea into quests, bias
+            battles, daily rituals, and a living archive of your aesthetic
+            growth.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#quest-lab">Start today’s run</a>
+            <a class="button secondary" href="#arena">Challenge a bias boss</a>
+          </div>
+
+          <div class="hero-note">
+            Core loop from the book:
+            <strong>perceive -> judge -> express -> reflect</strong>
+          </div>
+        </section>
+
+        <aside class="hero-panel panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">Live dashboard</p>
+              <h2>Growth at a glance</h2>
+            </div>
+            <div class="ring" id="heroRing">
+              <span id="heroLevel">Lv. 1</span>
+            </div>
+          </div>
+
+          <div class="stat-grid">
+            <article class="stat-card">
+              <p>Total XP</p>
+              <strong id="heroXp">0</strong>
+            </article>
+            <article class="stat-card">
+              <p>Current streak</p>
+              <strong id="heroStreak">0 days</strong>
+            </article>
+            <article class="stat-card">
+              <p>Signature</p>
+              <strong id="heroSignature">Explorer</strong>
+            </article>
+            <article class="stat-card">
+              <p>Today completed</p>
+              <strong id="heroTodayDone">0 / 3</strong>
+            </article>
+          </div>
+
+          <div class="hero-source-list">
+            <span>Ch. 1 — Aesthetic sovereignty</span>
+            <span>Ch. 15 — Learning roadmap</span>
+            <span>Ch. 47 — Daily reflection</span>
+            <span>Ch. 50 — Everyday integration</span>
+            <span>Ch. 57 — Taste archive</span>
+            <span>Ch. 89 — Interactive aesthetics</span>
+            <span>Ch. 148-155 — Biases and growth</span>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main class="shell content-stack">
+      <section class="panel">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">Platform design</p>
+            <h2>The four muscles of taste</h2>
+          </div>
+          <p class="section-copy">
+            Every module on the platform reinforces one of the book’s key
+            capacities: notice more, judge better, express clearly, and reflect
+            long enough to change.
+          </p>
+        </div>
+
+        <div class="loop-grid">
+          <article class="loop-card">
+            <span class="loop-index">01</span>
+            <h3>Perception</h3>
+            <p>
+              Train your eye and ear to catch nuance in objects, spaces, text,
+              sound, and everyday rituals.
+            </p>
+            <small>Grounded in Ch. 1, 16-20, 31-35</small>
+          </article>
+          <article class="loop-card">
+            <span class="loop-index">02</span>
+            <h3>Judgment</h3>
+            <p>
+              Learn to pause, compare, resist algorithmic autopilot, and defend
+              your aesthetic choices with reasons.
+            </p>
+            <small>Grounded in Ch. 1, 148-152</small>
+          </article>
+          <article class="loop-card">
+            <span class="loop-index">03</span>
+            <h3>Expression</h3>
+            <p>
+              Turn intuition into language, small creations, and deliberate
+              design choices that reveal your voice.
+            </p>
+            <small>Grounded in Ch. 21-25, 45, 85</small>
+          </article>
+          <article class="loop-card">
+            <span class="loop-index">04</span>
+            <h3>Reflection</h3>
+            <p>
+              Capture moments, spot patterns, and let growth become visible
+              instead of evaporating after the day ends.
+            </p>
+            <small>Grounded in Ch. 47, 50, 153-155</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">Journey map</p>
+            <h2>Six worlds to explore</h2>
+          </div>
+          <p class="section-copy">
+            Instead of reading linearly, players travel through themed worlds
+            that compress the book into playful loops of learning and practice.
+          </p>
+        </div>
+        <div class="world-grid" id="worldGrid"></div>
+      </section>
+
+      <section class="panel" id="quest-lab">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">Quest lab</p>
+            <h2>Daily missions generated from the book</h2>
+          </div>
+          <p class="section-copy">
+            Pick a learning path. The platform serves three short missions each
+            day so the training stays concrete, varied, and repeatable.
+          </p>
+        </div>
+
+        <div class="path-selector" id="pathSelector"></div>
+        <div class="quest-grid" id="questDeck"></div>
+      </section>
+
+      <div class="split-layout">
+        <section class="panel" id="arena">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Bias boss fight</p>
+              <h2>Defeat the traps that flatten taste</h2>
+            </div>
+            <p class="section-copy">
+              The book spends a full arc on cognitive bias. Here those chapters
+              become short tactical battles with feedback and rewards.
+            </p>
+          </div>
+
+          <div class="boss-shell">
+            <div class="boss-card">
+              <div>
+                <p class="boss-label" id="bossName">Echo Chamber</p>
+                <h3 id="bossTitle">Confirmation Bias</h3>
+              </div>
+              <div class="boss-health">
+                <span>Boss health</span>
+                <div class="health-track">
+                  <div class="health-fill" id="bossHealth"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="battle-panel">
+              <p class="battle-progress" id="battleProgress">Round 1 of 5</p>
+              <h3 id="battlePrompt"></h3>
+              <div class="choice-list" id="battleChoices"></div>
+              <div class="battle-feedback" id="battleFeedback"></div>
+              <button class="button primary inline-button" id="battleAdvance">
+                Begin boss fight
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="journal">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Reflection forge</p>
+              <h2>Turn fleeting moments into a practice</h2>
+            </div>
+            <p class="section-copy">
+              Based on the book’s daily record method: one moment, one challenge,
+              one discovery, one insight, one intention.
+            </p>
+          </div>
+
+          <form class="journal-form" id="journalForm">
+            <label>
+              Aesthetic moment
+              <textarea
+                name="moment"
+                rows="2"
+                placeholder="What did you notice today that felt alive, subtle, or memorable?"
+                required
+              ></textarea>
+            </label>
+            <label>
+              Challenge
+              <textarea
+                name="challenge"
+                rows="2"
+                placeholder="What felt noisy, shallow, or difficult to appreciate?"
+                required
+              ></textarea>
+            </label>
+            <label>
+              Discovery
+              <textarea
+                name="discovery"
+                rows="2"
+                placeholder="What new artist, object, sound, or pattern did you encounter?"
+                required
+              ></textarea>
+            </label>
+            <label>
+              Reflection
+              <textarea
+                name="reflection"
+                rows="3"
+                placeholder="Why did it matter? What bias, emotion, or principle might have shaped your reaction?"
+                required
+              ></textarea>
+            </label>
+            <label>
+              Tomorrow’s intention
+              <textarea
+                name="intention"
+                rows="2"
+                placeholder="What will you pay attention to next?"
+                required
+              ></textarea>
+            </label>
+            <button class="button primary" type="submit">Save journal entry</button>
+          </form>
+
+          <div class="mini-feed" id="journalFeed"></div>
+        </section>
+      </div>
+
+      <div class="split-layout">
+        <section class="panel" id="archive">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Taste archive</p>
+              <h2>Build a personal corpus instead of random saves</h2>
+            </div>
+            <p class="section-copy">
+              The book argues that collecting is not enough. This archive turns
+              saved references into searchable patterns you can learn from.
+            </p>
+          </div>
+
+          <form class="archive-form" id="archiveForm">
+            <div class="archive-topline">
+              <label>
+                Item title
+                <input
+                  type="text"
+                  name="title"
+                  placeholder="Bauhaus kettle, rainy alley, jazz trio..."
+                  required
+                />
+              </label>
+              <label>
+                Medium
+                <select name="medium">
+                  <option value="object">Object</option>
+                  <option value="space">Space</option>
+                  <option value="image">Image</option>
+                  <option value="sound">Sound</option>
+                  <option value="text">Text</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset class="tag-fieldset">
+              <legend>Choose the qualities you noticed</legend>
+              <div class="tag-grid" id="tagOptions"></div>
+            </fieldset>
+
+            <label>
+              Why it belongs in your taste archive
+              <textarea
+                name="note"
+                rows="3"
+                placeholder="Describe what makes it worth remembering and what it teaches you."
+                required
+              ></textarea>
+            </label>
+
+            <button class="button primary" type="submit">Add to archive</button>
+          </form>
+
+          <div class="archive-insight" id="archiveInsight"></div>
+          <div class="archive-list" id="archiveList"></div>
+        </section>
+
+        <section class="panel" id="dashboard">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Progress observatory</p>
+              <h2>Make growth visible</h2>
+            </div>
+            <p class="section-copy">
+              Tracking is not bureaucracy here. It is motivation, pattern
+              finding, and a visible reminder that taste grows through repeated
+              attention.
+            </p>
+          </div>
+
+          <div class="skill-stack" id="skillBars"></div>
+          <div class="insight-card" id="growthInsight"></div>
+          <div class="badge-grid" id="badgeGrid"></div>
+        </section>
+      </div>
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
