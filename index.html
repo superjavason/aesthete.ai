@@ -26,6 +26,7 @@
           </div>
         </div>
         <div class="topbar-links">
+          <a href="#atlas">Book Atlas</a>
           <a href="#quest-lab">Quest Lab</a>
           <a href="#arena">Boss Fight</a>
           <a href="#journal">Journal</a>
@@ -167,6 +168,54 @@
           </p>
         </div>
         <div class="world-grid" id="worldGrid"></div>
+      </section>
+
+      <section class="panel" id="atlas">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">Book atlas</p>
+            <h2>Learn the actual book through routes, parts, and chapter unlocks</h2>
+          </div>
+          <p class="section-copy">
+            This layer turns the manuscript into a studyable curriculum. Pick a
+            route, filter by part, open a spotlight chapter, and mark what you
+            have truly studied.
+          </p>
+        </div>
+
+        <div class="atlas-summary-row">
+          <div class="route-picker" id="routePicker"></div>
+
+          <aside class="route-progress-card">
+            <p class="section-kicker">Route progress</p>
+            <h3 id="atlasRouteName">Full map</h3>
+            <p class="route-progress-copy" id="atlasRouteDescription"></p>
+            <div class="skill-track route-progress-track">
+              <div class="skill-fill" id="atlasRouteProgressBar"></div>
+            </div>
+            <div class="route-stat-row">
+              <div class="route-stat">
+                <span>Studied</span>
+                <strong id="atlasStudiedCount">0</strong>
+              </div>
+              <div class="route-stat">
+                <span>In route</span>
+                <strong id="atlasRouteCount">0</strong>
+              </div>
+              <div class="route-stat">
+                <span>Next</span>
+                <strong id="atlasNextChapter">Ch. 1</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="part-filter" id="partFilter"></div>
+
+        <div class="atlas-layout">
+          <div class="chapter-catalog" id="chapterCatalog"></div>
+          <aside class="chapter-spotlight" id="chapterSpotlight"></aside>
+        </div>
       </section>
 
       <section class="panel" id="quest-lab">

@@ -535,6 +535,230 @@ h3 {
   font-size: 0.82rem;
 }
 
+.atlas-summary-row,
+.atlas-layout,
+.route-picker,
+.part-filter,
+.chapter-catalog,
+.spotlight-meta,
+.spotlight-rewards {
+  display: grid;
+}
+
+.atlas-summary-row {
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.8fr);
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.route-picker {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.route-card,
+.route-progress-card,
+.chapter-card,
+.chapter-spotlight {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.route-card {
+  text-align: left;
+  padding: 16px;
+  color: var(--text);
+}
+
+.route-card span,
+.route-progress-copy,
+.route-stat span,
+.chapter-card-meta,
+.chapter-state,
+.spotlight-meta,
+.spotlight-block p,
+.spotlight-block h4 {
+  color: var(--muted);
+}
+
+.route-card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
+.route-card small {
+  display: block;
+  margin-top: 10px;
+  color: rgba(237, 244, 255, 0.74);
+  line-height: 1.6;
+}
+
+.route-card.active {
+  border-color: rgba(114, 183, 255, 0.58);
+  background: linear-gradient(180deg, rgba(114, 183, 255, 0.15), rgba(255, 255, 255, 0.04));
+  box-shadow: 0 12px 28px rgba(114, 183, 255, 0.12);
+}
+
+.route-progress-card {
+  padding: 18px;
+}
+
+.route-progress-copy {
+  line-height: 1.7;
+  margin: 12px 0 14px;
+}
+
+.route-progress-track {
+  margin-bottom: 14px;
+}
+
+.route-stat-row {
+  display: flex;
+  gap: 12px;
+}
+
+.route-stat {
+  flex: 1 1 0;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.route-stat span {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.route-stat strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.part-filter {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.part-chip {
+  padding: 11px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+}
+
+.part-chip.active {
+  color: var(--text);
+  border-color: rgba(164, 125, 255, 0.45);
+  background: rgba(164, 125, 255, 0.14);
+}
+
+.atlas-layout {
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 18px;
+}
+
+.chapter-catalog {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.chapter-card {
+  text-align: left;
+  padding: 18px;
+  color: var(--text);
+}
+
+.chapter-card-top,
+.chapter-card-meta,
+.spotlight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+}
+
+.chapter-card p {
+  margin: 12px 0;
+}
+
+.chapter-number,
+.spotlight-part {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(114, 183, 255, 0.12);
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.chapter-state {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.chapter-card-meta {
+  margin-top: 14px;
+  font-size: 0.82rem;
+}
+
+.chapter-card.active {
+  border-color: rgba(114, 183, 255, 0.58);
+  transform: translateY(-1px);
+}
+
+.chapter-card.studied {
+  border-color: rgba(83, 212, 167, 0.48);
+  background: linear-gradient(180deg, rgba(83, 212, 167, 0.09), rgba(255, 255, 255, 0.04));
+}
+
+.chapter-spotlight {
+  padding: 20px;
+  min-height: 100%;
+}
+
+.spotlight-meta {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 14px 0 18px;
+}
+
+.spotlight-meta span {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.82rem;
+}
+
+.spotlight-block + .spotlight-block {
+  margin-top: 14px;
+}
+
+.spotlight-block h4 {
+  margin: 0 0 8px;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.spotlight-block p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.spotlight-rewards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0;
+}
+
 .path-selector {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
@@ -876,10 +1100,21 @@ h3 {
   .hero-grid,
   .split-layout,
   .section-header,
+  .atlas-summary-row,
+  .atlas-layout,
   .world-grid,
   .loop-grid,
   .quest-grid {
     grid-template-columns: 1fr;
+  }
+
+  .route-picker,
+  .chapter-catalog {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .part-filter {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .path-selector {
@@ -904,7 +1139,12 @@ h3 {
   .hero-source-list,
   .tag-grid,
   .stat-grid,
-  .badge-grid {
+  .badge-grid,
+  .route-picker,
+  .part-filter,
+  .chapter-catalog,
+  .spotlight-meta,
+  .spotlight-rewards {
     grid-template-columns: 1fr;
   }
 
@@ -928,6 +1168,14 @@ h3 {
   }
 
   .boss-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .route-stat-row,
+  .chapter-card-top,
+  .chapter-card-meta,
+  .spotlight-header {
     flex-direction: column;
     align-items: stretch;
   }
