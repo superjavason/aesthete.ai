@@ -541,7 +541,10 @@ h3 {
 .part-filter,
 .chapter-catalog,
 .spotlight-meta,
-.spotlight-rewards {
+.spotlight-rewards,
+.lesson-studio,
+.lesson-reader-meta,
+.lesson-card-grid {
   display: grid;
 }
 
@@ -662,6 +665,12 @@ h3 {
   gap: 18px;
 }
 
+.lesson-studio {
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
 .chapter-catalog {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
@@ -757,6 +766,113 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
   margin: 18px 0;
+}
+
+.lesson-reader,
+.lesson-sidebar-card,
+.lesson-card,
+.lesson-reading-block {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lesson-reader {
+  padding: 22px;
+}
+
+.lesson-reader-shell {
+  display: grid;
+  gap: 16px;
+}
+
+.lesson-reader-header,
+.lesson-side-metrics {
+  display: grid;
+  gap: 12px;
+}
+
+.lesson-reader-meta {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lesson-reader-meta span {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.lesson-quote {
+  margin: 0;
+  padding: 18px;
+  border-left: 3px solid rgba(114, 183, 255, 0.65);
+  border-radius: 18px;
+  background: rgba(114, 183, 255, 0.08);
+  color: rgba(237, 244, 255, 0.9);
+  line-height: 1.8;
+}
+
+.lesson-reading-block,
+.lesson-card,
+.lesson-sidebar-card {
+  padding: 18px;
+}
+
+.lesson-reading-block h4,
+.lesson-card h4 {
+  margin: 0 0 10px;
+  font-size: 0.94rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.lesson-reading-block p,
+.lesson-card p,
+.lesson-side-note p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.lesson-card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.lesson-sidebar {
+  display: grid;
+  gap: 12px;
+}
+
+.lesson-side-metric {
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lesson-side-metric span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.lesson-side-metric strong {
+  display: block;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.lesson-note-form h3 {
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+.lesson-note-form textarea {
+  min-height: 160px;
 }
 
 .path-selector {
@@ -1102,6 +1218,7 @@ h3 {
   .section-header,
   .atlas-summary-row,
   .atlas-layout,
+  .lesson-studio,
   .world-grid,
   .loop-grid,
   .quest-grid {
@@ -1109,7 +1226,8 @@ h3 {
   }
 
   .route-picker,
-  .chapter-catalog {
+  .chapter-catalog,
+  .lesson-card-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1144,7 +1262,9 @@ h3 {
   .part-filter,
   .chapter-catalog,
   .spotlight-meta,
-  .spotlight-rewards {
+  .spotlight-rewards,
+  .lesson-reader-meta,
+  .lesson-card-grid {
     grid-template-columns: 1fr;
   }
 

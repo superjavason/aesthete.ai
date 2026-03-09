@@ -553,6 +553,333 @@ const chapterAtlas = [
   },
 ];
 
+const lessonLibrary = {
+  "ch-001": {
+    quote:
+      "Taste is not a luxury label. It is judgment grounded in knowledge, exercised under conditions of distraction and pressure.",
+    opening:
+      "The opening chapter draws a hard line between liking and judging. In the book’s framework, taste is not proved by saying you prefer something. It is proved by perceiving meaningful difference, delaying easy prestige cues, and explaining why a choice holds up.",
+    insights: [
+      {
+        title: "Preference is immediate; taste is argued",
+        body:
+          "The chapter insists that 'I like it' is only the start. Taste adds a reference frame, evidence, and the courage to stand apart from the algorithmic feed.",
+      },
+      {
+        title: "AI makes judgment more important, not less",
+        body:
+          "When machines can generate endless polished output, the scarce human value shifts from production to selection. The key question becomes what deserves your attention.",
+      },
+      {
+        title: "Aesthetic sovereignty has to be defended",
+        body:
+          "The chapter frames taste as resistance against outsourcing judgment. The point is not to reject tools, but to stop letting them decide what counts as worthy.",
+      },
+    ],
+    reflection:
+      "Where in your recent choices did convenience replace judgment? Name one situation in which you accepted the feed’s answer too quickly.",
+    coach:
+      "Study this chapter slowly. Its job is to reset your definition of taste before you build anything on top of it.",
+  },
+  "ch-008": {
+    quote:
+      "We do not simply see images. We see through labels, institutions, money, power, and the habits that taught us how to look.",
+    opening:
+      "This case-study chapter uses John Berger’s Ways of Seeing to show that visual culture is never neutral. Looking may come before language, but interpretation is thoroughly shaped by the stories, status signals, and ideologies wrapped around what is seen.",
+    insights: [
+      {
+        title: "Language recodes vision",
+        body:
+          "The same image feels different when it is introduced as priceless art, student work, luxury branding, or low-status content. Context changes the seeing, not just the later opinion.",
+      },
+      {
+        title: "Reproduction changes meaning",
+        body:
+          "In the age of copies, screenshots, reposts, and AI generation, meaning becomes mobile. The chapter argues that placement and framing now matter as much as original making.",
+      },
+      {
+        title: "Critical seeing asks what the image is serving",
+        body:
+          "Who is being imagined as the ideal viewer? What values are being sold? What is outside the frame? These questions turn passive looking into an active reading practice.",
+      },
+    ],
+    reflection:
+      "Pick one image that instantly charms you. What authority, aspiration, or ideology comes bundled with that charm?",
+    coach:
+      "Use this lesson whenever you feel hypnotized by beautiful surfaces. It is designed to interrupt visual obedience.",
+  },
+  "ch-015": {
+    quote:
+      "Cognition is the map, training is the journey. The route matters because taste grows by repeated, structured contact rather than occasional inspiration.",
+    opening:
+      "The roadmap chapter turns the first part of the book into a navigable plan. Instead of vague self-improvement, it asks you to locate strengths, blind spots, dependencies, and aims so that practice becomes directional.",
+    insights: [
+      {
+        title: "Taste has layers",
+        body:
+          "The chapter ties together physiology, emotion, culture, and personal history. A judgment is never purely one thing, which is why reflection matters so much.",
+      },
+      {
+        title: "Choose a route, not a fantasy",
+        body:
+          "Visual, thinking, and balanced paths appear in the chapter because different learners need different front doors. The practical lesson is to pick a route that your actual life can sustain.",
+      },
+      {
+        title: "Build a support system early",
+        body:
+          "Books, archives, tools, and discussion partners are presented as infrastructure. The chapter treats growth as something the environment can support or sabotage.",
+      },
+    ],
+    reflection:
+      "What is your current blind spot: a medium, a difficulty, or an overdependence on recommendation systems?",
+    coach:
+      "If you are drifting between too many interests, come back here and choose a route again with more honesty.",
+  },
+  "ch-030": {
+    quote:
+      "Metacognition is the ability to step out of automatic thought long enough to examine the quality of your own judgment.",
+    opening:
+      "This chapter introduces metacognition as a crucial threshold for taste. The first reaction still matters, but the book argues that mature judgment begins when you can observe your own reaction, test it, and decide whether it deserves to lead.",
+    insights: [
+      {
+        title: "Taste includes monitoring",
+        body:
+          "The chapter distinguishes direct reaction from reflective examination. Aesthetic maturity means asking what evidence, mood, and assumptions are shaping the reaction.",
+      },
+      {
+        title: "Bias is easier to correct when you can see it forming",
+        body:
+          "Anchoring, confirmation bias, and emotional shortcutting work best when they remain invisible. Metacognitive questions make those invisible pressures legible.",
+      },
+      {
+        title: "Planning, monitoring, and evaluating are trainable",
+        body:
+          "The chapter frames better judgment as a system of deliberate moves: choose a strategy, check whether it is working, and evaluate what to do differently next time.",
+      },
+    ],
+    reflection:
+      "Recall one recent 'I just know' reaction. What would a second-order question have been in that moment?",
+    coach:
+      "Whenever you feel either overconfident or unusually resistant, this chapter is a good place to reopen.",
+  },
+  "ch-045": {
+    quote:
+      "Creation changes perception. Making even a clumsy thing teaches you more about form than long periods of purely passive looking.",
+    opening:
+      "This chapter argues that taste deepens when you cross the line from spectator to maker. It lowers the intimidation barrier around creativity and treats making as a way of understanding, not only a way of producing polished work.",
+    insights: [
+      {
+        title: "Making reveals hidden difficulty",
+        body:
+          "The chapter compares viewing with doing: painting reveals brush decisions, writing reveals constraint, and composing reveals the labor hidden behind elegance.",
+      },
+      {
+        title: "Perfectionism blocks contact with form",
+        body:
+          "A major obstacle named here is the need to be good before starting. The book counters this by treating completion and repetition as more educational than impressive first outputs.",
+      },
+      {
+        title: "Small practice beats heroic ambition",
+        body:
+          "The chapter recommends tiny, consistent creative acts because they are sustainable, informative, and less likely to collapse under self-consciousness.",
+      },
+    ],
+    reflection:
+      "What medium would teach you the most right now precisely because you are still awkward in it?",
+    coach:
+      "Use this chapter whenever consumption becomes too smooth and your senses need resistance again.",
+  },
+  "ch-047": {
+    quote:
+      "Aesthetic experience evaporates quickly. Recording it is not bureaucracy but a way to stop losing your own evidence.",
+    opening:
+      "The daily recording method chapter turns reflection into a durable habit. It suggests that memory is too unreliable to carry your taste journey alone, so the platform turns the chapter’s structure into the journal system.",
+    insights: [
+      {
+        title: "Records preserve the texture of the moment",
+        body:
+          "Without notes, the day collapses into a vague feeling. Recording fixes a more honest version of what you noticed before later narratives rewrite it.",
+      },
+      {
+        title: "Patterns only appear across entries",
+        body:
+          "One note is anecdote. A sequence of notes reveals attraction, avoidance, fatigue, and recurring bias. That is why repetition matters more than literary brilliance here.",
+      },
+      {
+        title: "The template keeps the practice light",
+        body:
+          "Moment, challenge, discovery, reflection, intention: the chapter uses this compact structure to keep the habit realistic even on difficult days.",
+      },
+    ],
+    reflection:
+      "Which part of the day usually goes unrecorded even though it may contain the strongest aesthetic signal?",
+    coach:
+      "If reflection feels heavy, make the entry smaller rather than skipping it. The chapter explicitly prefers continuity over performance.",
+  },
+  "ch-057": {
+    quote:
+      "A pile of saved references is not yet a corpus. A corpus begins when collection becomes searchable, comparable, and personally meaningful.",
+    opening:
+      "This chapter moves from casual saving to a designed archive. It argues that AI can assist pattern finding, but only if your own criteria, tags, and questions are present inside the system.",
+    insights: [
+      {
+        title: "AI can organize, but not personalize your standards",
+        body:
+          "Automatic labels can identify color, objects, or style patterns, yet the book insists that your own reactions and use cases still need to be tagged by hand.",
+      },
+      {
+        title: "Connection matters more than accumulation",
+        body:
+          "The chapter values relationships between references: concept links, tonal echoes, and recurring motifs. An archive should help you notice structure, not just volume.",
+      },
+      {
+        title: "Curation includes pruning",
+        body:
+          "A healthy corpus is edited, not endlessly enlarged. The book warns against hoarding and recommends routine review to keep the archive sharp.",
+      },
+    ],
+    reflection:
+      "What does one saved item in your archive actually teach you? If it teaches nothing, why is it still there?",
+    coach:
+      "Read this chapter together with your own archive habits open in front of you. The lesson becomes clearer when the clutter is visible.",
+  },
+  "ch-081": {
+    quote:
+      "AI is a mirror, not a god. Its real value lies in expanding possibility while leaving the final act of judgment to humans.",
+    opening:
+      "This concluding chapter of the AI section gathers the big claims into a usable stance. It asks the reader to convert scattered insight into principles for living and working among algorithms without surrendering authorship or discernment.",
+    insights: [
+      {
+        title: "Technology is neutral only in abstraction",
+        body:
+          "The chapter insists that the ethics of use matter more than the glamour of the tool. Access, fairness, labor, and originality all remain live questions at the point of use.",
+      },
+      {
+        title: "Human value clarifies when automation expands",
+        body:
+          "The more AI can generate, the more human significance concentrates around meaning, context, embodied experience, and the urge to create for reasons, not just results.",
+      },
+      {
+        title: "Sovereignty requires active habits",
+        body:
+          "The chapter recommends active search, doubt toward recommendation systems, manual practice, and personal standards as recurring acts of defense.",
+      },
+    ],
+    reflection:
+      "Write one rule that defines what AI may amplify for you and one thing you refuse to outsource.",
+    coach:
+      "This lesson works best as a personal manifesto exercise, not merely a summary to agree with abstractly.",
+  },
+  "ch-089": {
+    quote:
+      "Game aesthetics live in the rule set. Mechanics are not neutral containers for art; they are part of the art itself.",
+    opening:
+      "The game design chapter is important because it proves that interaction can carry aesthetic weight. It treats mechanics, narrative, sound, and emotional pacing as an integrated system rather than separate departments.",
+    insights: [
+      {
+        title: "Mechanics produce feeling",
+        body:
+          "The chapter shows that challenge, pace, reward, and emergence are not technical add-ons. They create tension, flow, discovery, and attachment.",
+      },
+      {
+        title: "Narrative can be linear, branching, environmental, or emergent",
+        body:
+          "Games widen the idea of storytelling by making the player partly responsible for how meaning appears and is remembered.",
+      },
+      {
+        title: "Ethics belong inside aesthetic design",
+        body:
+          "The chapter explicitly questions addictive loops, representation, and manipulative retention. A beautiful system can still be morally corrosive.",
+      },
+    ],
+    reflection:
+      "What emotion does your favorite game create through rules rather than through plot alone?",
+    coach:
+      "This chapter is especially useful for product, service, and education design because it makes interaction legible as form.",
+  },
+  "ch-148": {
+    quote:
+      "Taste can become an echo chamber when identity and preference fuse too tightly for criticism to enter.",
+    opening:
+      "The confirmation-bias chapter marks a turning point where the book becomes more suspicious of the self. Its claim is not that you should distrust all taste, but that any strong preference can begin protecting itself against growth.",
+    insights: [
+      {
+        title: "Liking distorts attention",
+        body:
+          "The chapter explains how we search for confirming evidence, soften the flaws of favored work, and exaggerate the weaknesses of disliked styles.",
+      },
+      {
+        title: "Identity makes bias feel moral",
+        body:
+          "Once a taste becomes part of who you think you are, disagreement starts to feel like threat rather than information. The book warns against this fusion.",
+      },
+      {
+        title: "The antidote is active opposition",
+        body:
+          "You are asked to search for real criticism of what you love and real strengths in what you reject. Growth comes from contact with tension, not from protected agreement.",
+      },
+    ],
+    reflection:
+      "Where do you become defensive faster: when someone critiques what you love, or when they praise what you dislike?",
+    coach:
+      "This is the right chapter whenever you notice yourself becoming loyal before becoming curious.",
+  },
+  "ch-152": {
+    quote:
+      "Critical thinking in aesthetics is not cold detachment. It is a way of letting feeling and analysis refine each other.",
+    opening:
+      "This integrative chapter argues that mature taste neither drowns in emotion nor hides from emotion behind pseudo-objectivity. The task is to move through experience, awareness, analysis, and synthesis without losing warmth.",
+    insights: [
+      {
+        title: "The book’s four-stage method is usable",
+        body:
+          "First feel the work, then notice your own condition, then test evidence and alternatives, then arrive at a judgment that remains open to revision.",
+      },
+      {
+        title: "Bias work is environmental as well as mental",
+        body:
+          "The chapter lists strategies for attention, social dialogue, delay, blind testing, and source diversity because cleaner judgment requires cleaner conditions too.",
+      },
+      {
+        title: "Warm skepticism is stronger than cynicism",
+        body:
+          "The chapter resists two dead ends at once: naive surrender and performative disbelief. It invites a patient 'maybe, but let me test that' posture.",
+      },
+    ],
+    reflection:
+      "Which stage do you usually skip: feeling honestly, noticing bias, testing evidence, or integrating the result?",
+    coach:
+      "Use this lesson as a recurring protocol. It is more valuable as a method than as a one-time argument.",
+  },
+  "ch-155": {
+    quote:
+      "Growth becomes motivating when it is visible enough to notice but light enough to maintain.",
+    opening:
+      "The growth-tracking chapter reframes measurement as part of the art of practice. Instead of sterile metrics, it asks what forms of evidence make development visible without reducing taste to numbers alone.",
+    insights: [
+      {
+        title: "Track inputs, outputs, and changes",
+        body:
+          "The chapter distinguishes what you consume, what you produce, and what actually shifts in your preferences or capacities. This keeps the record multidimensional.",
+      },
+      {
+        title: "Qualitative data matters",
+        body:
+          "Tags, moods, recurring values, and written insight are treated as essential because numbers alone cannot capture aesthetic development.",
+      },
+      {
+        title: "Dashboards should serve reflection",
+        body:
+          "Timelines, maps, and charts are recommended not to gamify everything blindly, but to surface patterns that would otherwise disappear into memory fog.",
+      },
+    ],
+    reflection:
+      "What is one metric that would clarify your growth, and one metric that would only make you perform for the system?",
+    coach:
+      "Use this lesson to keep the platform honest. Track enough to learn, not enough to flatten the practice.",
+  },
+};
+
 const questPool = [
   {
     id: "object-autopsy",
@@ -822,6 +1149,10 @@ const elements = {
   partFilter: document.getElementById("partFilter"),
   chapterCatalog: document.getElementById("chapterCatalog"),
   chapterSpotlight: document.getElementById("chapterSpotlight"),
+  lessonReader: document.getElementById("lessonReader"),
+  lessonSidebarMeta: document.getElementById("lessonSidebarMeta"),
+  lessonNoteForm: document.getElementById("lessonNoteForm"),
+  lessonNoteInput: document.getElementById("lessonNoteInput"),
   pathSelector: document.getElementById("pathSelector"),
   questDeck: document.getElementById("questDeck"),
   bossName: document.getElementById("bossName"),
@@ -856,6 +1187,37 @@ function init() {
 
 function wireEvents() {
   elements.battleAdvance.addEventListener("click", handleBattleAdvance);
+
+  elements.lessonNoteForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const chapter = getSelectedChapter();
+    if (!chapter) {
+      return;
+    }
+
+    const note = elements.lessonNoteInput.value.trim();
+    if (!note) {
+      showToast("Write one takeaway before saving.");
+      return;
+    }
+
+    const isFirstNote = !state.chapterNotes[chapter.id];
+    state.chapterNotes[chapter.id] = note;
+
+    if (isFirstNote && !state.notedChapters[chapter.id]) {
+      state.notedChapters[chapter.id] = new Date().toISOString();
+      applyRewards({ xp: 14, expression: 4, reflection: 4 });
+      registerActivity();
+    }
+
+    saveState();
+    showToast(`Takeaway saved for ${chapter.source}.`);
+    renderLessonStudio();
+    renderHero();
+    renderSkills();
+    renderGrowthInsight();
+    renderBadges();
+  });
 
   elements.journalForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -914,6 +1276,7 @@ function wireEvents() {
 function render() {
   renderHero();
   renderAtlas();
+  renderLessonStudio();
   renderPaths();
   renderQuests();
   renderBattle();
@@ -1079,7 +1442,7 @@ function renderAtlas() {
     button.addEventListener("click", () => {
       state.selectedChapterId = button.dataset.chapterId;
       saveState();
-      renderAtlas();
+      render();
     });
   });
 
@@ -1148,6 +1511,134 @@ function renderAtlasSpotlight(chapter) {
   if (studyButton && !studied) {
     studyButton.addEventListener("click", () => completeChapterStudy(chapter.id));
   }
+}
+
+function renderLessonStudio() {
+  const chapter = getSelectedChapter();
+
+  if (!chapter) {
+    elements.lessonReader.innerHTML = `
+      <div class="empty-state">
+        Choose a chapter in the atlas to open the lesson studio.
+      </div>
+    `;
+    elements.lessonSidebarMeta.innerHTML = `
+      <div class="empty-state">
+        Lesson tools will appear here when a chapter is selected.
+      </div>
+    `;
+    elements.lessonNoteInput.value = "";
+    return;
+  }
+
+  const lesson = getLessonContent(chapter);
+  const studied = isChapterStudied(chapter.id);
+  const note = state.chapterNotes[chapter.id] || "";
+  const savedTakeawayCount = Object.keys(state.chapterNotes).length;
+  const part = getPartMeta(chapter.partId);
+
+  elements.lessonReader.innerHTML = `
+    <div class="lesson-reader-shell">
+      <div class="lesson-reader-header">
+        <div>
+          <p class="section-kicker">Lesson studio</p>
+          <h3>${escapeHtml(chapter.title)}</h3>
+        </div>
+        <div class="lesson-reader-meta">
+          <span>${escapeHtml(chapter.source)}</span>
+          <span>${escapeHtml(part.name)}</span>
+          <span>${studied ? "Studied" : "Not yet studied"}</span>
+        </div>
+      </div>
+
+      <blockquote class="lesson-quote">${escapeHtml(lesson.quote)}</blockquote>
+
+      <div class="lesson-reading-block">
+        <h4>Core reading</h4>
+        <p>${escapeHtml(lesson.opening)}</p>
+      </div>
+
+      <div class="lesson-card-grid">
+        ${lesson.insights
+          .map(
+            (item) => `
+              <article class="lesson-card">
+                <h4>${escapeHtml(item.title)}</h4>
+                <p>${escapeHtml(item.body)}</p>
+              </article>
+            `
+          )
+          .join("")}
+      </div>
+
+      <div class="lesson-reading-block">
+        <h4>Reflection prompt</h4>
+        <p>${escapeHtml(lesson.reflection)}</p>
+      </div>
+
+      <div class="lesson-reading-block">
+        <h4>Coach note</h4>
+        <p>${escapeHtml(lesson.coach)}</p>
+      </div>
+    </div>
+  `;
+
+  elements.lessonSidebarMeta.innerHTML = `
+    <p class="section-kicker">Lesson stats</p>
+    <h3>${escapeHtml(chapter.source)} learning state</h3>
+    <div class="lesson-side-metrics">
+      <div class="lesson-side-metric">
+        <span>Status</span>
+        <strong>${studied ? "Studied" : "Open"}</strong>
+      </div>
+      <div class="lesson-side-metric">
+        <span>Saved takeaways</span>
+        <strong>${savedTakeawayCount}</strong>
+      </div>
+      <div class="lesson-side-metric">
+        <span>Practice focus</span>
+        <strong>${escapeHtml(chapter.challenge)}</strong>
+      </div>
+    </div>
+    <div class="lesson-side-note">
+      <p>
+        The lesson studio turns atlas entries into study material. Use the takeaway box to make each chapter change your own standards, not just your memory.
+      </p>
+    </div>
+  `;
+
+  elements.lessonNoteInput.value = note;
+}
+
+function getLessonContent(chapter) {
+  if (lessonLibrary[chapter.id]) {
+    return lessonLibrary[chapter.id];
+  }
+
+  const part = getPartMeta(chapter.partId);
+
+  return {
+    quote: `${chapter.source} belongs to ${part.name} and pushes taste through one deliberate move: ${chapter.promise}`,
+    opening:
+      "This chapter has not been expanded into a handcrafted studio note yet, but the platform can still turn its role in the book into a usable reading frame.",
+    insights: [
+      {
+        title: "Chapter promise",
+        body: chapter.promise,
+      },
+      {
+        title: "Turn it into practice",
+        body: chapter.play,
+      },
+      {
+        title: "Protect the difficulty",
+        body: chapter.challenge,
+      },
+    ],
+    reflection: `If you completed this chapter seriously, what would change in the way you notice, judge, or express something this week?`,
+    coach:
+      "Use the spotlight summary first, then write one takeaway in your own words so the lesson becomes active rather than abstract.",
+  };
 }
 
 function renderPaths() {
@@ -1556,10 +2047,11 @@ function renderGrowthInsight() {
   const weakest = getLowestKey(state.skills);
   const totalQuestCompletions = getTotalQuestCompletions();
   const studiedChapterCount = Object.keys(state.studiedChapters).length;
+  const takeawayCount = Object.keys(state.chapterNotes).length;
   const message =
     totalQuestCompletions === 0 && studiedChapterCount === 0
       ? "You are at the awakening stage. The first win is not intensity but consistency: study one chapter, complete one quest, then record one reflection."
-      : `You have studied ${studiedChapterCount} atlas chapter${studiedChapterCount === 1 ? "" : "s"}. Your strongest muscle is ${strongest}, while ${weakest} is the current stretch zone. Keep reading and practicing in tandem so the knowledge does not stay abstract.`;
+      : `You have studied ${studiedChapterCount} atlas chapter${studiedChapterCount === 1 ? "" : "s"} and saved ${takeawayCount} takeaway${takeawayCount === 1 ? "" : "s"}. Your strongest muscle is ${strongest}, while ${weakest} is the current stretch zone. Keep reading and practicing in tandem so the knowledge does not stay abstract.`;
 
   elements.growthInsight.innerHTML = `
     <h3>Current read on your growth</h3>
@@ -1569,6 +2061,7 @@ function renderGrowthInsight() {
 
 function renderBadges() {
   const studiedChapterCount = Object.keys(state.studiedChapters).length;
+  const takeawayCount = Object.keys(state.chapterNotes).length;
   const badges = [
     {
       title: "Observer Mode",
@@ -1609,6 +2102,11 @@ function renderBadges() {
       title: "Route Finisher",
       description: "Complete the one-week sprint route.",
       unlocked: getRouteChapters("sprint-path").every((chapter) => isChapterStudied(chapter.id)),
+    },
+    {
+      title: "Margin Writer",
+      description: "Save 5 chapter takeaways in the lesson studio.",
+      unlocked: takeawayCount >= 5,
     },
   ];
 
@@ -1776,6 +2274,8 @@ function loadState() {
     bossWins: 0,
     bossRuns: 0,
     studiedChapters: {},
+    chapterNotes: {},
+    notedChapters: {},
     skills: {
       perception: 0,
       judgment: 0,
@@ -1803,6 +2303,8 @@ function loadState() {
       journalEntries: Array.isArray(parsed.journalEntries) ? parsed.journalEntries : [],
       archiveItems: Array.isArray(parsed.archiveItems) ? parsed.archiveItems : [],
       studiedChapters: parsed.studiedChapters || {},
+      chapterNotes: parsed.chapterNotes || {},
+      notedChapters: parsed.notedChapters || {},
       completedQuestsByDay: parsed.completedQuestsByDay || {},
       dailyClearBonusByDay: parsed.dailyClearBonusByDay || {},
       bossVictoriesByDay: parsed.bossVictoriesByDay || {},
